@@ -2741,7 +2741,7 @@ async function uploadToAsciinema(filePath) {
       if (error.code === "ENOENT") {
         resolve3({
           success: false,
-          error: "asciinema CLI not found. Install with: pip install asciinema"
+          error: "asciinema CLI not found. Install: https://docs.asciinema.org/manual/cli/installation/"
         });
       } else {
         resolve3({

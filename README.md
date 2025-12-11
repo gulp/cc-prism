@@ -21,6 +21,8 @@ cc-prism renders sessions with Claude Code's ink aesthetics: the thinking blocks
 - Create demos of AI-assisted workflows
 - Document how you solved that gnarly bug
 
+**Prerequisites:** [asciinema CLI](https://docs.asciinema.org/manual/cli/installation/) for playback and upload
+
 ## Quick Start
 
 ```bash

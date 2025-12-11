@@ -1,6 +1,6 @@
 {
   "name": "cc-prism",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert Claude Code session JSONL files to asciicast v3 for embedding via asciinema",
   "type": "module",
   "main": "dist/index.js",
@@ -38,7 +38,8 @@
     "assets/",
     "README.md",
     "QUICKSTART.md",
-    "USAGE.md"
+    "USAGE.md",
+    "CHANGELOG.md"
   ],
   "devDependencies": {
     "@eslint/js": "^9.39.1",

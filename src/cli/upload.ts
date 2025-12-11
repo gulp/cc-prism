@@ -32,7 +32,7 @@ export async function uploadToAsciinema(filePath: string): Promise<UploadResult>
       if ((error as NodeJS.ErrnoException).code === "ENOENT") {
         resolve({
           success: false,
-          error: "asciinema CLI not found. Install with: pip install asciinema",
+          error: "asciinema CLI not found. Install: https://docs.asciinema.org/manual/cli/installation/",
         });
       } else {
         resolve({
