@@ -1,0 +1,67 @@
+{
+  "name": "cc-prism",
+  "version": "0.1.0",
+  "description": "Convert Claude Code session JSONL files to asciicast v3 for embedding via asciinema",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "cc-prism": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/",
+    "clean": "rm -rf dist/"
+  },
+  "keywords": [
+    "claude-code",
+    "asciinema",
+    "asciicast",
+    "terminal",
+    "cli"
+  ],
+  "author": "gulp",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gulp/cc-prism.git"
+  },
+  "homepage": "https://onceuponaclaude.com",
+  "bugs": {
+    "url": "https://github.com/gulp/cc-prism/issues"
+  },
+  "files": [
+    "dist/",
+    "assets/",
+    "README.md",
+    "QUICKSTART.md",
+    "USAGE.md"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.2.7",
+    "eslint": "^9.16.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.48.1",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clipboardy": "^5.0.1",
+    "commander": "^12.1.0",
+    "fuse.js": "^7.1.0",
+    "ink": "^6.5.1",
+    "react": "^19.2.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
